@@ -1,0 +1,193 @@
+/* Main Banner CSS */
+.main_banner_wrap {
+   width: 100%;
+   height: 90px;
+   text-align: center;
+}
+
+.main_banner_wrap p {
+   padding: 44px 0 0 ;
+   font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Text';
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 46px;
+   color: rgb(29,29,31);
+}
+
+/* Main Visual 1 CSS */
+.main_visual_1_wrap {
+   width: 100%;
+   height: auto;
+   padding: 0 0 12px;
+}
+
+.main_visual_1 {
+   text-align: center;
+   width: 100%;
+   height: 690px;
+   background-image: url(../img/main_visual_1.jpg);
+   padding: 55px 0 0;
+}
+
+.main_visual_1:hover { cursor: pointer; }
+
+.main_visual_1 a, .main_visual_1 span {
+   font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Text';
+   font-size: 21px;
+   font-weight: 400;
+   line-height: 32px;
+   letter-spacing: 0.231px;
+}
+.main_visual_1 a:hover { text-decoration: underline; }
+
+/* Main Visual 2 CSS */
+.main_visual_2_wrap {
+   width: 100%;
+   height: auto;
+   padding: 0 0 12px;
+}
+
+.main_visual_2 {
+   text-align: center;
+   width: 100%;
+   height: 690px;
+   background-image: url(../img/main_visual_2.jpg);
+   padding: 55px 0 0;
+}
+
+.main_visual_2:hover { cursor: pointer; }
+
+.main_visual_2 a, .main_visual_2 span  {
+   font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Text';
+   font-size: 21px;
+   font-weight: 400;
+   line-height: 32px;
+   letter-spacing: 0.231px;
+}
+.main_visual_2 a:hover { text-decoration: underline; }
+
+/* Main Visual 3 CSS */
+.main_visual_3_wrap {
+   width: 100%;
+   height: auto;
+   padding: 0 0 12px;
+}
+
+.main_visual_3 {
+   text-align: center;
+   width: 100%;
+   height: 690px;
+   background-image: url(../img/main_visual_3.jpg);
+   background-color: rgb(251, 251, 253);
+   background-position: center bottom;
+   background-size: auto;
+   padding: 50px 0 0;
+}
+
+.main_visual_3:hover { cursor: pointer; }
+
+.main_visual_3 a, .main_visual_3 span {
+   font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Text';
+   font-size: 21px;
+   font-weight: 400;
+   line-height: 32px;
+   letter-spacing: 0.231px;
+}
+.main_visual_3 a:hover { text-decoration: underline; }
+
+/* Apple Watch CSS */
+.applewatch_wrap {
+   width: 100%;
+   height: auto;
+   padding: 0 6px 12px;
+   display: flex;
+}
+
+.applewatch_1 {
+   width: calc(50% - 12px);
+   height: 580px;
+   padding: 40px 0 0;
+   margin: 0 6px;
+   background-color: rgb(0,0,0);
+   background-image: url(../img/applewatch_1_b.jpg);
+   text-align: center;
+   background-position: center bottom;
+   background-size: auto;
+}
+
+.applewatch_1:hover {cursor: pointer;}
+.applewatch_1 a:hover {text-decoration: underline;}
+
+.applewatch_2 {
+   width: calc(50% - 12px);
+   height: 580px;
+   padding: 40px 0 0;
+   margin: 0 6px;
+   background-image: url(../img/applewatch_2_b.jpg);
+   text-align: center;
+}
+
+.applewatch_2:hover {cursor: pointer;}
+.applewatch_2 a:hover {text-decoration: underline;}
+
+/* MacBook CSS */
+.macbook_wrap {
+   width: 100%;
+   height: auto;
+   padding: 0 6px 12px;
+   display: flex;
+}
+
+.macbook_pro {
+   width: calc(50% - 12px);
+   height: 580px;
+   padding: 29px 0 0;
+   margin: 0 6px;
+   background-image: url(../img/MacBook_Pro.jpg);
+   text-align: center;
+}
+.macbook_pro:hover {cursor: pointer;}
+.macbook_pro a:hover {text-decoration: underline;}
+
+.macbook_air {
+   width: calc(50% - 12px);
+   height: 580px;
+   padding: 53px 0 0;
+   margin: 0 6px;
+   background-image: url(../img/MacBook_Air.jpg);
+   text-align: center;
+}
+.macbook_air:hover {cursor: pointer;}
+.macbook_air a:hover {text-decoration: underline;}
+
+/* Information CSS */
+.information_wrap {
+   width: 100%;
+   padding: 0 6px 12px;
+   display: flex;
+}
+
+.information_1 {
+   width: calc(50% - 12px);
+   height: 580px;
+   padding: 53px 0 0;
+   margin: 0 6px;
+   background-image: url(../img/information_1.jpg);
+   text-align: center;
+}
+.information_1:hover {cursor: pointer;}
+.information_1 a:hover {text-decoration: underline;}
+
+.information_2 {
+   width: calc(50% - 12px);
+   height: 580px;
+   padding: 53px 0 0;
+   margin: 0 6px;
+   background-image: url(../img/information_2.jpg);
+   background-color: rgb(241, 241, 243);
+   text-align: center;
+   background-position: center bottom;
+   background-size: auto;
+}
+.information_2:hover {cursor: pointer;}
+.information_2 a:hover {text-decoration: underline;}
