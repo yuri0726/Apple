@@ -1,0 +1,43 @@
+/* Header CSS */
+.gnb_wrap {
+   width: 100%;
+   height: auto;
+   background-color: rgba(0,0,0,0.8);
+   display: flex;
+   justify-content: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+
+.gnb {
+   width: 1000px;
+   height: 44px;
+   padding: 0 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.gnb li a { 
+   color: rgba(245,245,247,0.9);
+   font-family: 'SF Pro KR' ,'SF Pro Display', 'SF Pro Text';
+   font-size: 14px;
+   font-weight: 200;
+   line-height: 44px;
+}
+
+.gnb li a:hover {color: rgb(245,245,247);}
+
+.gnb li a:nth-child(1) {
+   display: block;
+   padding: 10px 10px 14px;
+}
+
+.gnb li a svg {
+   height: 20px;
+   fill: rgba(245,245,247,0.9);
+   vertical-align: middle;
+}
+
+.gnb li a svg:hover {fill: rgb(245,245,247);}
