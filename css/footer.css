@@ -122,6 +122,7 @@ footer {
 
 .footer_bottom_down {
    display: flex;
+   align-items: center;
    padding: 6px 0 20px;
 }
 
