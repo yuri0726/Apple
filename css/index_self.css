@@ -1,0 +1,509 @@
+/* Banner CSS */
+.banner_wrap { width: 100%; height: auto;}
+.banner_text {
+   margin: 44px 0 0;
+   text-align: center;
+   height: 46px;
+   font-size: 14px;
+   line-height: 46px;
+}
+.banner_text a { color: rgb(0, 102, 204); }
+
+/* Hero CSS */
+
+/* Hero 1 iPhone 12 */
+.hero_1_wrap {
+   width: 100%;
+   height: 692px;
+   background-color: rgb(251, 251, 253);
+   text-align: center;
+   padding: 55px 0 0;
+   background-image: url(../img/hero_iphone12.jpg);
+   background-size: auto;
+   background-position: center bottom;
+}
+.hero_1_wrap:hover {cursor: pointer;}
+
+.hero_subhead_black { margin: 6px 0 0; }
+.hero_price_info {
+   margin: 13.6px 0 0;
+   color: rgb(134, 134, 139);
+}
+.hero_link_whitebg { margin: 13.65px 0 0; }
+.hero_link_whitebg a {
+   margin: 0 16px;
+   font-size: 21px;
+   line-height: 32px;
+   letter-spacing: 0.2px;
+   color: rgb(0, 102, 204);
+}
+
+/* Hero 1 iPhone 12 Pro */
+.hero_2_wrap {
+   width: 100%;
+   height: 692px;
+   background-color: rgb(0, 0, 0);
+   text-align: center;
+   padding: 55px 0 0;
+   background-image: url(../img/hero_iphone12_pro.jpg);
+   background-size: auto;
+   background-position: center bottom;
+   margin: 12px 0 0;
+}
+.hero_2_wrap:hover {cursor: pointer;}
+
+.hero_headline_white { color: rgb(245, 245, 247); }
+.hero_subhead_white { 
+   margin: 6px 0 0;
+   color: rgb(245, 245, 247);
+}
+.hero_link_blackbg { margin: 13.65px 0 0; }
+.hero_link_blackbg a {
+   margin: 0 16px;
+   font-size: 21px;
+   line-height: 32px;
+   letter-spacing: 0.2px;
+   color: rgb(41, 151, 255);
+}
+
+/* Hero 3 iPad Air */
+.hero_3_wrap {
+   width: 100%;
+   height: 692px;
+   background-color: rgb(251, 251, 253);
+   text-align: center;
+   padding: 55px 0 0;
+   background-image: url(../img/hero_ipad_air.jpg);
+   background-size: auto;
+   background-position: center bottom;
+   margin: 12px 0 0;
+}
+.hero_3_wrap:hover {cursor: pointer;}
+
+/* Section Promotion */
+
+/* Promotion 1 Apple Watch */
+.promo_wrap {
+   width: 100%;
+   height: auto;
+}
+
+.promo {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 12px 6px;
+}
+
+.promo_1 {
+   width: calc(50% - 12px);
+   height: 580px;
+   margin: 0 6px 12px;
+   background-color: rgb(0, 0, 0);
+   text-align: center;
+   background-image: url(../img/promo_watch_1.jpg);
+   background-size: auto;
+   background-position: center bottom ;
+   padding: 40px 0 0;
+}
+.promo_1:hover { cursor: pointer; }
+.promo_1 img:nth-child(1) { height: 50px; vertical-align: middle; }
+.promo_1 img:nth-child(2) { display: none; }
+
+.promo_subhead_white {
+   font-size: 21px;
+   line-height: 26px;
+   letter-spacing: 0.336px;
+   color: rgb(245, 245, 247);
+   margin: 11px 0 0;
+}
+
+.promo_link_blackbg { margin: 11.9px 0 0; }
+.promo_link_blackbg a {
+   margin: 0 14px;
+   font-size: 17px;
+   line-height: 23px;
+   letter-spacing: 0;
+   color: rgb(41, 151, 255);
+}
+
+/* Promotion 2 Apple Watch */
+.promo_2 {
+   width: calc(50% - 12px);
+   height: 580px;
+   margin: 0 6px 12px;
+   background-color: rgb(0, 0, 0);
+   text-align: center;
+   background-image: url(../img/promo_watch_2.jpg);
+   background-size: auto;
+   background-position: center bottom ;
+   padding: 57px 0 0;
+}
+.promo_2:hover { cursor: pointer; }
+.promo_2 img:nth-child(1) { height: 57px; vertical-align: middle; }
+.promo_2 img:nth-child(2) { display: none; }
+
+/* Promotion 3 MacBook Pro */
+.promo_3 {
+   width: calc(50% - 12px);
+   height: 580px;
+   margin: 0 6px 12px;
+   background-color: rgb(0, 0, 0);
+   text-align: center;
+   background-image: url(../img/promo_macbook_pro.jpg);
+   background-size: auto;
+   background-position: center bottom ;
+   padding: 29px 0 0;
+}
+.promo_3:hover { cursor: pointer; }
+
+.promo_eyebrow { color: rgb(245, 245, 247); }
+
+.promo_headline_white { 
+   color: rgb(245, 245, 247);
+   font-size: 40px;
+   line-height: 44px;
+   font-weight: 600;
+   margin: 2px 0 0;
+}
+
+.promo_3 h3 { margin: 4px 0 0; }
+
+/* Promotion 4 MacBook Air */
+.promo_4 {
+   width: calc(50% - 12px);
+   height: 580px;
+   margin: 0 6px 12px;
+   background-color: rgb(0, 0, 0);
+   text-align: center;
+   background-image: url(../img/promo_macbook_air.jpg);
+   background-size: auto;
+   background-position: center bottom ;
+   padding: 53px 0 0;
+}
+.promo_4:hover { cursor: pointer; }
+
+.promo_4 h3 { margin: 4px 0 0; }
+
+/* Promotion 5 여의도 오픈 */
+.promo_5 {
+   width: calc(50% - 12px);
+   height: 580px;
+   margin: 0 6px 0;
+   background-color: rgb(251, 251, 253);
+   text-align: center;
+   background-image: url(../img/promo_5.jpg);
+   background-size: auto;
+   background-position: center bottom ;
+   padding: 53px 0 0;
+}
+.promo_5:hover { cursor: pointer; }
+.promo_headline_black {
+   /* margin: 2px auto 0;
+   width: 480px; */
+   color: rgb(29, 29, 31);
+   font-size: 40px;
+   line-height: 44px;
+   font-weight: 600;
+}
+
+.promo_subhead_black {
+   font-size: 21px;
+   line-height: 26px;
+   letter-spacing: 0.336px;
+   color: rgb(29, 29, 31);
+   margin: 4px 0 0;
+}
+
+.promo_link_whitebg { margin: 11.9px 0 0; }
+.promo_link_whitebg a {
+   margin: 0 14px;
+   font-size: 17px;
+   line-height: 23px;
+   letter-spacing: 0;
+   color: rgb(0, 102, 204);
+}
+
+/* Promotion 6 아카데미 이벤트 */
+.promo_6 {
+   width: calc(50% - 12px);
+   height: 580px;
+   margin: 0 6px 0;
+   background-color: rgb(241, 241, 243);
+   text-align: center;
+   background-image: url(../img/promo_6.jpg);
+   background-size: auto;
+   background-position: center bottom ;
+   padding: 53px 0 0;
+}
+.promo_6 h2:nth-child(2) { display: none; }
+
+.promo_6:hover { cursor: pointer; }
+
+/* 반응형 CSS */
+@media screen and (max-width:1068px) {
+
+   /* Hero CSS */
+   .hero_1_wrap, .hero_2_wrap {
+      height: 650px;
+      padding: 61px 0 0;
+   }
+
+   /* Hero 1 iPhone12 */
+   .hero_1_wrap { background-image: url(../img/hero_iphone12_t.jpg); }
+   /* .hero_1_wrap { background-size: auto 686px; } */
+
+   .hero_subhead_black { margin: 5px 0 0; }
+   .hero_price_info { margin: 13.6px 0 0; }
+   .hero_link_whitebg { margin: 14.06px 0 0; }
+   .hero_link_whitebg a {
+      font-size: 19px;
+      line-height: 25px;
+   }
+   
+   /* Hero 2 iPhone12 Pro */
+   .hero_2_wrap { background-image: url(../img/hero_iphone12_pro_t.jpg); }
+   /* .hero_1_wrap { background-size: auto 686px; } */
+
+   .hero_subhead_white { margin: 5px 0 0; }
+   .hero_link_blackbg { margin: 14.06px 0 0; }
+   .hero_link_blackbg a {
+      font-size: 19px;
+      line-height: 25px;
+   } 
+
+   /* Hero 3 iPad Air */
+   .hero_3_wrap {
+      height: 650px;
+      padding: 42px 0 0;
+      background-image: url(../img/hero_iPad_air_t.jpg);
+   }
+   /* .hero_3_wrap { background-size: auto 400px; } */
+
+   /* Promotion */
+   /* Promotion 1 Apple Watch */
+   .promo_1 {
+      height: 490px;
+      background-image: url(../img/promo_watch_1_t.jpg);
+      padding: 26px 0 0;
+   }
+   .promo_1 img:nth-child(1) { display: none; }
+   .promo_1 img:nth-child(2) { display:inline-block; height: 46px; vertical-align: middle; }
+   .promo_subhead_white {
+      font-size: 19px;
+      line-height: 25px;
+      letter-spacing: 0.228px;
+      margin: 9px 0 0;
+   }
+   .promo_link_blackbg { margin: 13.6px 0 0; }
+
+   /* Promotion 2 Apple Watch */
+   .promo_2 {
+      height: 490px;
+      background-image: url(../img/promo_watch_2_t.jpg);
+      padding: 44px 0 0;
+   }
+   .promo_2 img:nth-child(1) { display: none; }
+   .promo_2 img:nth-child(2) { display:inline-block; height: 47px; vertical-align: middle; }
+
+   /* Promotion 3 MacBook Pro */
+   .promo_3 {
+      height: 490px;
+      background-image: url(../img/promo_macbook_pro_t.jpg);
+      padding: 19px 0 0;
+      /* background-size: auto 440px; */
+   }
+   .promo_headline_white { 
+      font-size: 32px;
+      line-height: 36px;
+      letter-spacing: 0.064px;
+   }
+
+   /* Promotion 4 MacBook Air */
+   .promo_4 {
+      height: 490px;
+      background-image: url(../img/promo_macbook_air_t.jpg);
+      padding: 44px 0 0;
+      /* background-size: auto 440px; */
+   }
+
+   /* Promotion 5 여의도 오픈 */
+   .promo_5 {
+      height: 490px;
+      background-image: url(../img/promo_5_t.jpg);
+      padding: 42px 0 0;
+      /* background-size: auto 420px; */
+   }
+   .promo_headline_black {
+      font-size: 32px;
+      line-height: 36px;
+      letter-spacing: 0.064px;
+      /* margin: 2px auto 0;
+      width: 260px; */
+   }
+   .promo_subhead_black {
+      font-size: 19px;
+      line-height: 25px;
+      letter-spacing: 0.228px;
+   }
+   .promo_link_whitebg { margin: 13.6px 0 0; }  
+   
+   /* Promotion 6 아카데미 이벤트 */
+   .promo_6{
+      height: 490px;
+      padding: 42px 0 0;
+      background-image: url(../img/promo_6_t.jpg);
+      /* background-size: auto 490px; */
+   }
+   .promo_6 h2:nth-child(1) { display: none; }
+   .promo_6 h2:nth-child(2) { display: inline-block; }
+  
+}
+
+@media screen and (max-width:767px) {
+
+   /* Banner */
+   .banner_text { margin: 48px 0 0; } 
+
+} 
+
+@media screen and (max-width:733px) {
+   
+   /* Banner CSS */
+   .banner_wrap {
+      padding: 10px 0 ; 
+   }
+   .banner_text {
+      width: 320px;
+      height: auto;
+      margin: 48px auto 0;
+      font-size: 14px;
+      line-height: 22px;
+   }
+
+   /* Hero CSS*/
+
+   .hero_1_wrap, .hero_2_wrap {
+      height: 500px;
+      padding: 37px 0 0;
+   }
+
+   /* Hero 1 iPhone12 */
+   .hero_1_wrap { background-image: url(../img/hero_iphone12_m.jpg); }
+
+   .hero_subhead_black { margin: 2px 0 0; }
+   .hero_price_info { width: 150px; margin: 13.6px auto 0; }
+   .hero_link_whitebg { margin: 13.3px 0 0; }
+   .hero_link_whitebg a { margin: 0 14px; }
+
+   /* Hero 2 iPhone12 Pro */
+   .hero_2_wrap { background-image: url(../img/hero_iphone12_pro_m.jpg); }
+
+   .hero_subhead_white { margin: 2px 0 0; }
+   .hero_link_blackbg { margin: 13.3px 0 0; }
+   .hero_link_blackbg a { margin: 0 14px; }
+
+   /* Hero 3 iPad Air */
+   .hero_3_wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 500px;
+      padding: 35px;
+      background-image: url(../img/hero_iPad_air_m.jpg);
+   }
+   .hero_3_wrap h2 { display: none; }
+
+   /* Section Promotion */
+   .promo_wrap {
+      width: 100%;
+      height: auto;
+   }
+   .promo {
+      flex-wrap: wrap;
+      padding: 12px 0;
+   }
+
+   /* Promotion 1 Apple Watch */
+   .promo_1 {
+      width: 100%;
+      height: 500px;
+      margin: 0 0 12px;
+      background-image: url(../img/promo_watch_1_m.jpg);
+      padding: 22px 0 0;
+   }
+   .promo_1 img:nth-child(1) { display: none; }
+   .promo_1 img:nth-child(2) { display:inline-block; height: 46px; vertical-align: middle; }
+
+   .promo_subhead_white {
+      font-size: 19px;
+      line-height: 25px;
+      letter-spacing: 0.228px;
+      margin: 9px 0 0;
+   }
+
+   .promo_link_blackbg { margin: 13.94px 0 0; }
+
+   /* Promotion 2 Apple Watch */
+   .promo_2 {
+      width: 100%;
+      height: 500px;
+      margin: 0 0 12px;
+      background-image: url(../img/promo_watch_2_m.jpg);
+      padding: 39px 0 0;
+   }
+   .promo_2 img:nth-child(1) { display: none; }
+   .promo_2 img:nth-child(2) { display: inline-block; height: 47px; vertical-align: middle; }
+
+   /* Promotion 3 MacBook Pro */
+   .promo_3 {
+      width: 100%;
+      height: 500px;
+      margin: 0 0 12px;
+      background-image: url(../img/promo_macbook_pro_m.jpg);
+      padding: 39px 0 0;
+   }
+   .promo_eyebrow { 
+      font-size: 17px;
+      line-height: 23px;
+      font-weight: 600;
+   }
+
+   /* Promotion 4 MacBook Air */
+   .promo_4 {
+      width: 100%;
+      height: 500px;
+      margin: 0 0 12px;
+      background-image: url(../img/promo_macbook_air_m.jpg);
+      padding: 37px 0 0;
+   }
+
+   /* Promotion 5 여의도 오픈 */
+   .promo_5 {
+      width: 100%;
+      height: 500px;
+      margin: 0 0 12px;
+      background-image: url(../img/promo_5_m.jpg);
+      padding: 37px 0 0;
+   }
+   .promo_link_whitebg { margin: 13.94px 0 0; }  
+   
+   /* Promotion 6 아카데미 이벤트 */
+   .promo_6{
+      width: 100%;
+      height: 500px;
+      margin: 0;
+      background-image: url(../img/promo_6_m.jpg);
+      background-position: center -62px;
+      padding: 37px 0 0;
+   }
+   .promo_6 h2:nth-child(1) { display: none; }
+   .promo_6 h2:nth-child(2) { display: inline-block; }
+
+}
+
+@media screen and (max-width:399px) {
+   
+   /* Banner CSS */
+   .banner_text { width: 290px; }
+
+}
