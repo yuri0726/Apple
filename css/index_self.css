@@ -352,7 +352,7 @@
       height: 490px;
       padding: 42px 0 0;
       background-image: url(../img/promo_6_t.jpg);
-      background-size: auto 490px;
+      /* background-size: auto 490px; */
    }
    .promo_6 h2:nth-child(1) { display: none; }
    .promo_6 h2:nth-child(2) { display: inline-block; }
@@ -370,7 +370,7 @@
    
    /* Banner CSS */
    .banner_wrap {
-      padding: 10px 0; 
+      padding: 10px 0 ; 
    }
    .banner_text {
       width: 320px;
@@ -380,28 +380,23 @@
       line-height: 22px;
    }
 
-   /* Hero CSS */
-   .hero_1_wrap, .hero_2_wrap, .hero_3_wrap {
+   /* Hero CSS*/
+
+   .hero_1_wrap, .hero_2_wrap {
       height: 500px;
       padding: 37px 0 0;
    }
 
    /* Hero 1 iPhone12 */
-   .hero_1_wrap {
-      background-image: url(../img/hero_iphone12_m.jpg);
-   }
+   .hero_1_wrap { background-image: url(../img/hero_iphone12_m.jpg); }
 
    .hero_subhead_black { margin: 2px 0 0; }
-   .hero_price_info { 
-      margin: 13.6px auto 0;
-      width: 150px;
-   }
+   .hero_price_info { width: 150px; margin: 13.6px auto 0; }
    .hero_link_whitebg { margin: 13.3px 0 0; }
    .hero_link_whitebg a { margin: 0 14px; }
 
    /* Hero 2 iPhone12 Pro */
    .hero_2_wrap { background-image: url(../img/hero_iphone12_pro_m.jpg); }
-
 
    .hero_subhead_white { margin: 2px 0 0; }
    .hero_link_blackbg { margin: 13.3px 0 0; }
@@ -409,19 +404,20 @@
 
    /* Hero 3 iPad Air */
    .hero_3_wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 500px;
+      padding: 35px;
       background-image: url(../img/hero_iPad_air_m.jpg);
-      padding: 395px 0 0;
-      /* background-size: 734px 548px;
-         background-position: center bottom; */
    }
-   .hero_3_wrap h2 { display: none; }   
+   .hero_3_wrap h2 { display: none; }
 
    /* Section Promotion */
    .promo_wrap {
       width: 100%;
       height: auto;
    }
-
    .promo {
       flex-wrap: wrap;
       padding: 12px 0;
@@ -453,7 +449,6 @@
       height: 500px;
       margin: 0 0 12px;
       background-image: url(../img/promo_watch_2_m.jpg);
-      /* background-size: auto 510px; */
       padding: 39px 0 0;
    }
    .promo_2 img:nth-child(1) { display: none; }
@@ -466,8 +461,6 @@
       margin: 0 0 12px;
       background-image: url(../img/promo_macbook_pro_m.jpg);
       padding: 39px 0 0;
-      /* background-size: auto 370px;
-      background-position: center 90px ;*/
    }
    .promo_eyebrow { 
       font-size: 17px;
@@ -482,8 +475,6 @@
       margin: 0 0 12px;
       background-image: url(../img/promo_macbook_air_m.jpg);
       padding: 37px 0 0;
-      /* background-size: auto 370px;
-      background-position: center 70px ;*/
    }
 
    /* Promotion 5 여의도 오픈 */
@@ -493,9 +484,6 @@
       margin: 0 0 12px;
       background-image: url(../img/promo_5_m.jpg);
       padding: 37px 0 0;
-      /* background-size: auto 400px;
-      background-position: center 50px ; */
-      background-position: center -62px;
    }
    .promo_link_whitebg { margin: 13.94px 0 0; }  
    
@@ -505,6 +493,7 @@
       height: 500px;
       margin: 0;
       background-image: url(../img/promo_6_m.jpg);
+      background-position: center -62px;
       padding: 37px 0 0;
    }
    .promo_6 h2:nth-child(1) { display: none; }

@@ -1,93 +1,105 @@
+/* 한국어 전용 웹폰트 */
 @font-face { 
-   font-family: 'SF Pro KR'; 
-   src: url(../font/SFProKRDisplay_light.woff2) format('woff2');
-   font-weight: 200;
+      font-family: 'SF Pro KR'; 
+      src: url(../font/SFProKRDisplay_light.woff2) format('woff2');
+      font-weight: 200;
 }
 
 @font-face { 
-   font-family: 'SF Pro KR'; 
-   src: url(../font/SFProKRDisplay_regular.woff2) format('woff2');
-   font-weight: 400;
+      font-family: 'SF Pro KR'; 
+      src: url(../font/SFProKRDisplay_regular.woff2) format('woff2');
+      font-weight: 400;
 }
 
 @font-face { 
-   font-family: 'SF Pro KR'; 
-   src: url(../font/SFProKRDisplay_bold.woff2) format('woff2');
-   font-weight: 700;
+      font-family: 'SF Pro KR'; 
+      src: url(../font/SFProKRDisplay_semibold.woff2) format('woff2');
+      font-weight: 600;
+}
+   
+@font-face { 
+      font-family: 'SF Pro KR'; 
+      src: url(../font/SFProKRDisplay_bold.woff2) format('woff2');
+      font-weight: 800;
+}
+
+/* 본문 전용 영문 웹폰트 */
+@font-face { 
+      font-family: 'SF Pro Text'; 
+      src: url(../font/sf-pro-text_light.woff2) format('woff2');
+      font-weight: 200;
 }
 
 @font-face { 
-   font-family: 'SF Pro KR'; 
-   src: url(../font/SFProKRDisplay_semibold.woff2) format('woff2');
-   font-weight: 500;
+      font-family: 'SF Pro Text'; 
+      src: url(../font/sf-pro-text_regular.woff2) format('woff2');
+      font-weight: 400;
 }
 
 @font-face { 
-   font-family: 'SF Pro Text'; 
-   src: url(../font/sf-pro-text_light.woff2) format('woff2');
-   font-weight: 200;
+      font-family: 'SF Pro Text'; 
+      src: url(../font/sf-pro-text_semibold.woff2) format('woff2');
+      font-weight: 600;
 }
 
 @font-face { 
-   font-family: 'SF Pro Text'; 
-   src: url(../font/sf-pro-text_regular.woff2) format('woff2');
-   font-weight: 400;
+      font-family: 'SF Pro Text'; 
+      src: url(../font/sf-pro-text_bold.woff2) format('woff2');
+      font-weight: 800;
 }
 
 @font-face { 
-   font-family: 'SF Pro Text'; 
-   src: url(../font/sf-pro-text_bold.woff2) format('woff2');
-   font-weight: 700;
+      font-family: 'SF Pro Text'; 
+      src: url(../font/sf-pro-text_heavy.woff2) format('woff2');
+      font-weight: 900;
+}
+
+/* 제목 전용 영문 웹폰트 */
+@font-face { 
+      font-family: 'SF Pro Display'; 
+      src: url(../font/sf-pro-display_regular.woff2) format('woff2');
+      font-weight: 400;
 }
 
 @font-face { 
-   font-family: 'SF Pro Text'; 
-   src: url(../font/sf-pro-text_semibold.woff2) format('woff2');
-   font-weight: 500;
+      font-family: 'SF Pro Display'; 
+      src: url(../font/sf-pro-display_semibold.woff2) format('woff2');
+      font-weight: 600;
 }
 
 @font-face { 
-   font-family: 'SF Pro Text'; 
-   src: url(../font/sf-pro-text_heavy.woff2) format('woff2');
-   font-weight: 800;
+      font-family: 'SF Pro Display'; 
+      src: url(../font/sf-pro-display_bold.woff2) format('woff2');
+      font-weight: 800;
 }
 
 @font-face { 
-   font-family: 'SF Pro Display'; 
-   src: url(../font/sf-pro-display_regular.woff2) format('woff2');
-   font-weight: 400;
+      font-family: 'SF Pro Display'; 
+      src: url(../font/sf-pro-display_heavy.woff2) format('woff2');
+      font-weight: 900;
+}
+
+/* 특수문자 전용 웹폰트 */
+@font-face { 
+      font-family: 'SF Pro Icons'; 
+      src: url(../font/sf-pro-icons_light.woff2) format('woff2');
+      font-weight: 200;
 }
 
 @font-face { 
-   font-family: 'SF Pro Display'; 
-   src: url(../font/sf-pro-display_bold.woff2) format('woff2');
-   font-weight: 700;
+      font-family: 'SF Pro Icons'; 
+      src: url(../font/sf-pro-icons_regular.woff2) format('woff2');
+      font-weight: 400;
 }
 
-@font-face { 
-   font-family: 'SF Pro Display'; 
-   src: url(../font/sf-pro-display_semibold.woff2) format('woff2');
-   font-weight: 500;
-}
 
-@font-face { 
-   font-family: 'SF Pro Display'; 
-   src: url(../font/sf-pro-display_heavy.woff2) format('woff2');
-   font-weight: 800;
-}
 
-@font-face { 
-   font-family: 'SF Pro Icons'; 
-   src: url(../font/sf-pro-icons_regular.woff2) format('woff2');
-   font-weight: 400;
-}
-
-body { font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Text';  font-size: 16px; line-height: 1.5; font-weight: 400; letter-spacing: normal; color:rgb(29,29,31); -webkit-font-smoothing: antialiased; }
+body { font-family: 'SF Pro KR', 'SF Pro Text', 'SF Pro Icons', sans-serif;  font-size: 16px; line-height: 1.5; font-weight: 400; letter-spacing: normal; color:rgb(29,29,31); -webkit-font-smoothing: antialiased; }
 
 div, ul, li {
-      background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: center center;
 }
 
 /* Layout Style */
@@ -95,40 +107,35 @@ div, ul, li {
 button:hover { cursor: pointer; }
 button:focus { outline: none; }
 
+a:hover { text-decoration: underline; }
+
 /* Text Style */
+
+
 h1 {   }
-h2 { font-family:'SF Pro KR', 'SF Pro Display', 'SF Pro Text';  font-size: 56px; line-height: 66.0044px; font-weight: 600; letter-spacing: normal; }
-h3 { font-family:'SF Pro KR', 'SF Pro Display', 'SF Pro Text''SF Pro KR';  font-size: 28px; line-height: 27.0001px; font-weight: 400; letter-spacing: 0.112px; }
-h4 {  }
-h5 {  }
+h2 { font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Icons', sans-serif; font-size: 56px; line-height: 66px; font-weight: 600;  -webkit-font-smoothing: antialiased; }
+h3 {  font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Icons', sans-serif; font-size: 28px; line-height: 31px; font-weight: 400;
+letter-spacing: 0.1px;  -webkit-font-smoothing: antialiased;  }
+h4 {  font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Icons', sans-serif; font-size: 21px; line-height: 26px; font-weight: 400; letter-spacing: normal;  -webkit-font-smoothing: antialiased; }
+h5 { font-family: 'SF Pro KR', 'SF Pro Display', 'SF Pro Icons', sans-serif; font-size: 21px; line-height: 26px; font-weight: 400; letter-spacing: normal;  -webkit-font-smoothing: antialiased;  }
 h6 { }
 
-p { font-family: 'SF Pro KR';  font-size: 17px; line-height: 23.003px; font-weight: 400; letter-spacing: normal; }
+p { font-family: 'SF Pro KR', 'SF Pro Text', 'SF Pro Icons';  font-size: 17px; line-height: 27px; font-weight: 400; letter-spacing: normal; -webkit-font-smoothing: antialiased; }
 
-.h2_40 { font-family:'SF Pro KR';  font-size: 40px; line-height: 44px; font-weight: 600; letter-spacing: normal; }
-.h3_21 { font-family:'SF Pro KR';  font-size: 21px; line-height: 26.0001px; font-weight: 400; letter-spacing: 0.336px; }
+/* 반응형 */
+@media screen and (max-width:1068px) {
 
-/* Font Weight */
-.fw_400 { font-weight: 400; }
-.fw_500 { font-weight: 500; }
-.fw_600 { font-weight: 600; }
+      /* Text Style */
+      h2 { font-size: 48px; line-height: 56.5752px; }
+      h3 { font-size: 24px; }
+}
 
-/* Margin */
-.mb_4 { margin-bottom: 4px;}
-.mb_6 { margin-bottom: 6px;}
-.mb_8 { margin-bottom: 8px;}
-.mb_11 { margin-bottom: 11px;}
-.mb_13 { margin-bottom: 13px;}
-.mb_18 { margin-bottom: 18px;}
-.mb_20 { margin-bottom: 20px;}
-.mb_24 { margin-bottom: 24px;}
+@media screen and (max-width:733px) {
 
-.ml_28 { margin-left: 28px;}
-.ml_35 { margin-left: 35px;}
+      /* Text Style */
+      h2 { font-size: 32px; line-height: 39px; }
+      h3 { font-size: 19px; line-height: 29px; }
 
-/* Color Style */
-.c_29 {color: rgb(29,29,31);}
-.c_134 {color: rgb(134,134,139);}
-.c_245 {color: rgb(245, 245, 247);}
-.c_point {color: rgb(0,102,204);}
-.c_point_2 {color: rgb(41,151,255);}
+      p { font-size: 14px; line-height: 22px; }
+
+}
