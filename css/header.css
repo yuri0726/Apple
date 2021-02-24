@@ -134,6 +134,7 @@ header { width: 100%; }
       background-image: url(../img/menubar_close.svg);
       background-repeat: no-repeat;
       background-position: center center;
+      transition: all 0.6s;
       display: none;
    }
 
